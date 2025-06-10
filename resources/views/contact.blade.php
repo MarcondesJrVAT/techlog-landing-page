@@ -7,13 +7,17 @@
     @vite('resources/css/app.css')
     <link rel="icon" href="{{ asset('assets/img/favicon.ico') }}" type="image/x-icon">
     <link rel="manifest" href="{{ asset('assets/manifest/site.webmanifest') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
 </head>
 <body class="bg-gray-50 font-sans text-gray-900">
-<header class="bg-orange-400 text-white py-6">
-    <div class="container mx-auto px-4">
-        <h1 class="text-3xl font-bold tracking-wide">TECHLOG</h1>
-        <p class="text-lg mt-2">Seu parceiro em Tecnologia da Informação</p>
-    </div>
+<header class="bg-gradient-to-b from-orange-400 to-orange-600 text-white py-6">
+  <div class="container mx-auto px-4 justify-center flex flex-col items-center">
+    <h1 class="text-3xl tracking-wide"
+        style="font-family:'Montserrat',sans-serif; font-weight:800;">
+      TECHLOG
+    </h1>
+    <p class="text-lg mt-2">Seu parceiro em Tecnologia da Informação</p>
+  </div>
 </header>
 
 <div class="bg-yellow-200 text-yellow-900 py-2">
@@ -43,24 +47,34 @@
             <div class="flex justify-center mb-4">
                 <img src="{{ asset('images/techlog.png') }}" alt="Logo TECHLOG" class="h-24 w-auto">
             </div>
-            <p class="text-center max-w-2xl mx-auto">A TECHLOG é uma empresa dedicada a oferecer excelência em serviços de TI. Nossa missão é proporcionar tranquilidade para que você foque no que realmente importa: o crescimento do seu negócio. Temos experiência e comprometimento para ser a solução que sua empresa precisa em tecnologia.</p>
+            <p class="text-center max-w-2xl mx-auto break-words whitespace-normal text-justify">
+              A <strong>TECHLOG SERVIÇOS DE GESTÃO E SISTEMAS INFORMATIZADOS LTDA.</strong> é uma empresa com ampla experiência em consultoria técnico-organizacional e gestão de mão de obra terceirizada. Desde 2000, tem participado de importantes projetos de informática aplicada na região Norte, atuando diretamente ou em parceria com instituições públicas e privadas. Destaca-se como integradora de talentos e soluções, promovendo inovação, pesquisa aplicada e desenvolvimento de tecnologias voltadas ao cotidiano da população.
+            </p>
         </div>
     </section>
 
     <section id="services" class="py-12">
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                <div class="bg-white p-6 rounded shadow">
-                    <h4 class="text-lg font-semibold mb-2">Missão</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+                <div class="bg-white p-6 rounded shadow hover:shadow-lg transition-shadow duration-300">
+                    <h4 class="text-lg font-semibold mb-2 text-center">Missão</h4>
+                    <p class="break-words whitespace-normal text-justify">
+                      Democratizar o acesso ao conhecimento e impulsionar a educação em larga escala, desenvolvendo e fornecendo soluções tecnológicas inovadoras e serviços técnicos especializados na produção de conteúdo educacional e comunicação corporativa.
+                    </p>
                 </div>
-                <div class="bg-white p-6 rounded shadow">
-                    <h4 class="text-lg font-semibold mb-2">Visão</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ligula sed magna dictum porta.</p>
+                <div class="bg-white p-6 rounded shadow hover:shadow-lg transition-shadow duration-300">
+                    <h4 class="text-lg font-semibold mb-2 text-center">Visão</h4>
+                    <p class="break-words whitespace-normal text-justify">
+                      Ser referência em tecnologia educacional, reconhecida pela excelência, inovação e capacidade de adaptação às demandas do mercado, transformando a maneira como o conhecimento é acessado e disseminado, e contribuindo para o sucesso e satisfação de nossos parceiros.
+                    </p>
                 </div>
-                <div class="bg-white p-6 rounded shadow">
-                    <h4 class="text-lg font-semibold mb-2">Valores</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+                <div class="bg-white p-6 rounded shadow hover:shadow-lg transition-shadow duration-300">
+                    <h4 class="text-lg font-semibold mb-2 text-center">Valores</h4>
+                    <ul class="list-disc list-inside space-y-2 text-gray-700 break-words whitespace-normal text-justify">
+                        <li><strong>Integridade:</strong> Atuar com ética, transparência e responsabilidade.</li>
+                        <li><strong>Inovação:</strong> Desenvolver soluções tecnológicas avançadas e adaptáveis.</li>
+                        <li><strong>Excelência:</strong> Garantir a qualidade e eficácia dos serviços e produtos.</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -116,7 +130,7 @@
     </section>
 </main>
 
-<footer class="bg-orange-400 text-white py-6 mt-12">
+<footer class="bg-gradient-to-t from-orange-600 to-orange-400 text-white py-6 mt-12">
     <div class="container mx-auto px-4 text-center text-sm space-y-1">
         <p><strong>TECHLOG SERVIÇOS DE GESTÃO E SISTEMAS INFORMATIZADOS LTDA</strong> – CNPJ: 03.613.289/0001-02</p>
         <p>R PEDRARIAS DE AVILAR, 26 - CONJ 31 DE MARÇO TÉRREO SALA 01</p>
