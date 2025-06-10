@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
 </head>
 <body class="bg-gray-50 font-sans text-gray-900">
-<header class="bg-gradient-to-b from-orange-400 to-orange-600 text-white py-6">
+<header class="bg-orange-400 text-white py-6">
   <div class="container mx-auto px-4 justify-center flex flex-col items-center">
     <h1 class="text-3xl tracking-wide"
         style="font-family:'Montserrat',sans-serif; font-weight:800;">
@@ -130,7 +130,7 @@
     </section>
 </main>
 
-<footer class="bg-gradient-to-t from-orange-600 to-orange-400 text-white py-6 mt-12">
+<footer class="bg-orange-400 text-white py-6 mt-12">
     <div class="container mx-auto px-4 text-center text-sm space-y-1">
         <p><strong>TECHLOG SERVIÇOS DE GESTÃO E SISTEMAS INFORMATIZADOS LTDA</strong> – CNPJ: 03.613.289/0001-02</p>
         <p>R PEDRARIAS DE AVILAR, 26 - CONJ 31 DE MARÇO TÉRREO SALA 01</p>
