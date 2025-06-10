@@ -20,8 +20,8 @@ TechLog é uma landing page desenvolvida para apresentar o projeto e facilitar o
 ## Instalação
 
 ```bash
-git clone https://github.com/seu-usuario/techlog-lp.git
-cd techlog-lp
+git clone https://github.com/seu-usuario/techlog-landing-page.git
+cd techlog-landing-page
 # Siga as instruções específicas do seu projeto, por exemplo:
 npm install
 npm run dev
