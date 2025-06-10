@@ -20,7 +20,7 @@
   <div class="container">
     <div class="header">
       <h2>Nova Mensagem de Contato</h2>
-      <p>{{ $data['subject'] }}</p>
+      <p>Assunto: {{ $data['subject'] }}</p>
     </div>
     <div class="content">
       <div class="info">
