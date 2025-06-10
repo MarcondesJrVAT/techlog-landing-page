@@ -16,11 +16,11 @@
     </div>
 </header>
 
-{{--<div class="bg-yellow-200 text-yellow-900 py-2">
+<div class="bg-yellow-200 text-yellow-900 py-2">
     <div class="container mx-auto px-4 text-center font-semibold">
         🚧 ESTE SITE ESTÁ EM CONSTRUÇÃO. AGRADECEMOS SUA COMPREENSÃO! 🚧
     </div>
-</div>--}}
+</div>
 
 <main>
     <section id="hero" class="py-12 bg-white shadow">
@@ -37,27 +37,32 @@
         </div>
     </section>
 
-    <section id="services" class="py-12">
+    <section id="about" class="py-12 bg-gray-100">
         <div class="container mx-auto px-4">
-            <h3 class="text-xl font-bold mb-4">Nossos Serviços Incluem:</h3>
-            <ul class="list-disc list-inside space-y-2">
-                <li><strong>Missão:</strong> Atendimento rápido e eficiente para resolver problemas do dia a dia.</li>
-                <li><strong>Manutenção Preventiva e Corretiva:</strong> Mantenha seus sistemas operando com máxima performance e minimize paradas.</li>
-                <li><strong>Consultoria em TI:</strong> Orientação para otimizar seus recursos tecnológicos e impulsionar seu negócio.</li>
-                <li><strong>Instalação e Configuração de Redes:</strong> Soluções robustas para conectividade e segurança.</li>
-                <li><strong>Segurança da Informação:</strong> Proteção de dados e sistemas contra ameaças.</li>
-                <li><strong>Backup e Recuperação de Dados:</strong> Garanta a integridade e disponibilidade das suas informações críticas.</li>
-            </ul>
+            <h3 class="text-xl font-bold mb-4 text-center">Sobre a TECHLOG</h3>
+            <div class="flex justify-center mb-4">
+                <img src="{{ asset('images/techlog.png') }}" alt="Logo TECHLOG" class="h-24 w-auto">
+            </div>
+            <p class="text-center max-w-2xl mx-auto">A TECHLOG é uma empresa dedicada a oferecer excelência em serviços de TI. Nossa missão é proporcionar tranquilidade para que você foque no que realmente importa: o crescimento do seu negócio. Temos experiência e comprometimento para ser a solução que sua empresa precisa em tecnologia.</p>
         </div>
     </section>
 
-    <section id="about" class="py-12 bg-gray-100">
+    <section id="services" class="py-12">
         <div class="container mx-auto px-4">
-            <h3 class="text-xl font-bold mb-4">Sobre a TECHLOG</h3>
-            <div class="flex justify-center mb-4">
-                <img src="{{ asset('assets/img/logo.png') }}" alt="Logo da TECHLOG" class="h-24 w-auto">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded shadow">
+                    <h4 class="text-lg font-semibold mb-2">Missão</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h4 class="text-lg font-semibold mb-2">Visão</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ligula sed magna dictum porta.</p>
+                </div>
+                <div class="bg-white p-6 rounded shadow">
+                    <h4 class="text-lg font-semibold mb-2">Valores</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</p>
+                </div>
             </div>
-            <p class="text-center max-w-2xl mx-auto">A TECHLOG é uma empresa dedicada a oferecer excelência em serviços de TI. Nossa missão é proporcionar tranquilidade para que você foque no que realmente importa: o crescimento do seu negócio. Temos experiência e comprometimento para ser a solução que sua empresa precisa em tecnologia.</p>
         </div>
     </section>
 
