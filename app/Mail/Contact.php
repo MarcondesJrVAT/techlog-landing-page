@@ -24,13 +24,17 @@ class Contact extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
+            from: new Address(
+                config('mail.from.address'),
+                config('mail.from.name')
+            ),
             replyTo: [
                 new Address(
                     $this->data['email'],
                     $this->data['name']
                 ),
             ],
-            subject: $this->data['subject']
+            subject: "Comercial - Assunto: " . $this->data['subject']
         );
     }
 
