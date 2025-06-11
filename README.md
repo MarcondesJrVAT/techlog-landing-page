@@ -23,28 +23,9 @@ TechLog é uma landing page desenvolvida para apresentar o projeto e facilitar o
 git clone https://github.com/seu-usuario/techlog-landing-page.git
 cd techlog-landing-page
 # Siga as instruções específicas do seu projeto, por exemplo:
+composer install
 npm install
 npm run dev
-```
-
-## Instalação com Docker
-
-Se preferir utilizar containers Docker, siga os passos abaixo:
-
-1. Certifique-se de ter o [Docker](https://www.docker.com/) e o [Docker Compose](https://docs.docker.com/compose/) instalados.
-2. No diretório do projeto, execute:
-
-    ```bash
-    docker-compose up -d
-    ```
-
-3. Aguarde até que todos os containers estejam em execução.
-4. Acesse a aplicação no navegador pelo endereço informado no `docker-compose.yml` (por padrão, http://localhost:8080).
-
-Para parar os containers, utilize:
-
-```bash
-docker-compose down
 ```
 
 ## Como Usar
